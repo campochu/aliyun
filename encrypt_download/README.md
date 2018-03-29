@@ -1,17 +1,17 @@
-#Android视频点播安全文件下载快速接入指南
+# Android视频点播安全文件下载快速接入指南
 
 本文档提供视频加密下载并播放的快速接入指南，视频管理后台基于阿里云视频点播控制台，Android端基于阿里云视频点播SDK中的[高级播放器](https://help.aliyun.com/document_detail/61910.html?spm=a2c4g.11186623.6.683.QSC6ZP)。
 
 [Demo下载](./res/alisafeplayer-master.zip)
 
-####demo实现功能
+#### demo实现功能
 将加密文件预置在apk中，demo启动时将安全文件拷贝到sd卡中，下载一段加密视频并播放。
 
-###加密视频下载
-####1.获取安全文件
+### 加密视频下载
+#### 1.获取安全文件
 参考[安全文件获取](https://help.aliyun.com/document_detail/57920.html?spm=a2c4g.11186623.2.9.sHzlGa)文档
 [点击查看视频](./res/file_download.m4v)
-####2.下载视频
+#### 2.下载视频
 参考[高级播放器](https://help.aliyun.com/document_detail/61910.html?spm=a2c4g.11186623.6.683.QSC6ZP)中的下载功能
 
 ```java
@@ -74,7 +74,7 @@ config.setMaxNums(4);
 AliyunDownloadManager.getInstance(context).setDownloadConfig(config);
 ```
 
-####3.加密视频播放
+#### 3.加密视频播放
 加密视频的播放可以通过高级播放器SDK播放本地资源的方式进行
 ```java
 String url = info.getSavePath() // AliyunDownloadMediaInfo中获取加密视频下载路径
