@@ -10,7 +10,7 @@
 ### 加密视频下载
 #### 1.获取安全文件
 参考[安全文件获取](https://help.aliyun.com/document_detail/57920.html?spm=a2c4g.11186623.2.9.sHzlGa)文档
-[下载安全文件帮助视频](./res/file_download.m4v)
+[下载安全文件帮助视频](./res/file_download_demo.mp4)
 #### 2.下载视频
 参考[高级播放器](https://help.aliyun.com/document_detail/61910.html?spm=a2c4g.11186623.6.683.QSC6ZP)中的下载功能
 
